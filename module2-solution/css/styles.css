@@ -1,0 +1,70 @@
+/* Generic styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DejaVu Sans", serif;
+    font-size: 175%;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .col-sm-1 {
+        float: left;
+    }
+    .col-sm-1 {
+        width: 100%;
+    }
+}
+
+h1 {
+    font-size: 125%;
+}
+
+.content {
+    width: 100%;
+    padding: 15px;
+}
+
+.menu-item-title {
+    font-size: 125%;
+    float: right;
+    border: 1px solid green;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.menu-item-content {
+    border: 1px solid green;
+    background-color: antiquewhite;
+    padding: 50px 10px 10px 10px;
+    margin: 15px;
+}
