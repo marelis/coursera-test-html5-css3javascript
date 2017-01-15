@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #1b6d85;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#header-nav {
+    background-color: #f7ecb5;
+    border-radius: 0;
+    border: 0;
+}
+
+#nav-list {
+    background-color: #1d854a;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list a {
+    color: #000;
+}
+
+#nav-list hr {
+    margin: 0;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.menu-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #306574;
+}
+
+.menu-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-content {
+    font-family: 'Dancing Script', cursive;;
+}
