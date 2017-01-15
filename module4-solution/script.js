@@ -48,11 +48,11 @@ for (var index in names) {
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current index
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // index in the loop.
-    if (name.toLowerCase().charAt(0) != 'j') {
+    if (name.toLowerCase().charAt(0) == 'j') {
         // byeSpeaker.xxxx
-        helloSpeaker.speak(name);
+        byeSpeaker.speak(name);
     } else {
         // helloSpeaker.xxxx
-        byeSpeaker.speak(name);
+        helloSpeaker.speak(name);
     }
 }
